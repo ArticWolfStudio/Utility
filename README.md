@@ -1,29 +1,7 @@
-# Password Generator
+# Utility
 
-A CLI utility tool that can be used to generate passwords
+A repository that consist of multiple utilities.
 
-## Options
+## List of Utilities
 
-We are providing two options:
-- CLI
-- WEB
-
-### CLI
-This option, will generate and output a password on the STDOUT.
-
-The length flag will also be parsed and used in this case.
-
-### WEB
-This option will not parse the length flag. The length should be provided in the url as an argument of 'length'.
-
-example: <code> http://localhost:8080/?length=10 </code>
-
-## Defaults and Character Set
-
-The 'length' flag is defaulted to 7 in both the options.
-
-Character set includes:
-- abcdefghijklmnopqrstuvwxyz
-- ABCDEFGHIJKLMNOPQRSTUVWXYZ
-- 0123456789
-- !@#$%
+- [Password Generator](Password%20Generator/README.md)
